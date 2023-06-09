@@ -23,6 +23,8 @@
             llvmPackages.bintools
             nil # Nix language server
             nixpkgs-fmt # Nix formatter
+            nodejs
+            nodePackages.npm
             nodePackages.vscode-langservers-extracted
             openssl
             pkg-config
